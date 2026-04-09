@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - Gestion de Stock</title>
+    <link rel="stylesheet" href="/stock-api/views/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h2>Gestion de Stock</h2>
+            <div class="nav-links">
+                <a href="products.html">Produits</a>
+                <a href="admin.html" id="admin-link" class="hidden">Admin</a>
+                <a href="#" onclick="logout()">Déconnexion</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container page-main-lower">
+        <header class="page-header page-header-lower mb-4">
+            <h1>Catalogue Produits</h1>
+            <p style="color: var(--text-muted);">Consultez et gérez les articles en inventaire</p>
+        </header>
+
+        <div id="Products">
+            <!-- Les produits seront chargés ici -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

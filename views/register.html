@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Gestion de Stock</title>
+    <link rel="stylesheet" href="/stock-api/views/styles.css">
+</head>
+<body class="auth-page">
+    <div class="card">
+        <h1 class="text-center">Créer un compte</h1>
+        <p class="text-center mb-4" style="color: var(--text-muted);">Rejoignez notre plateforme de gestion de stock</p>
+        
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="nom_register">Nom Complet</label>
+                <input type="text" id="nom_register" name="name" placeholder="Jean Dupont" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email_register">Adresse Email</label>
+                <input type="email" id="email_register" name="email" placeholder="nom@entreprise.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password_register">Mot de passe</label>
+                <input type="password" id="password_register" name="password" placeholder="••••••••" required>
+            </div>
+            
+            <p id="message_register"></p>
+            
+            <button type="button" onclick="register()">Créer le compte</button>
+            
+            <div class="mt-4 text-center">
+                <p style="font-size: 0.875rem;">Déjà un compte ? <a href="index.html">Se connecter ici</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

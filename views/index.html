@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Gestion de Stock</title>
+    <link rel="stylesheet" href="/stock-api/views/styles.css">
+</head>
+<body class="auth-page">
+    <div class="card">
+        <h1 class="text-center">Bon retour</h1>
+        <p class="text-center mb-4" style="color: var(--text-muted);">Veuillez entrer vos identifiants pour vous connecter</p>
+        
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" name="email" placeholder="nom@entreprise.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+            
+            <p id="message"></p>
+            
+            <button type="button" onclick="login()">Se connecter</button>
+            
+            <div class="mt-4 text-center">
+                <p style="font-size: 0.875rem;">Vous n'avez pas de compte ? <a href="register.html">S'inscrire ici</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
