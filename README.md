@@ -37,10 +37,15 @@ Le projet suit une architecture **MVC (Model - Controller - Routes)** pour une m
 /project
 
 ├── controllers/
+
 ├── models/
+
 ├── routes/
+
 ├── middlewares/
+
 ├── index.js
+
 ├── package.json
 
 
