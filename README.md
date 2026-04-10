@@ -28,7 +28,6 @@ Le projet suit une architecture **MVC (Model - Controller - Routes)** pour une m
 - **Mongoose**
 - **JWT (JSON Web Token)**
 - **bcryptjs**
-- **dotenv**
 - **cors**
 
 ---
